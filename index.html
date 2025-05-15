@@ -4,12 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simple HTML Project</title>
-  
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body>
 
   <header>
     <h1>My Basic Website</h1>
+    <p>Never <strike>give up !!!</strike></p>
+  </header>
     <nav>
       <ul>
         <li><a href="#welcome">Home</a></li>
@@ -18,7 +20,7 @@
         <li><a href="#Recource">Recource</a></li>
       </ul>
     </nav>
-  </header>
+  
 
   <section id="welcome">
     <h2>Welcome to My Website</h2>
@@ -65,10 +67,10 @@
 
       
       <input type="radio" id="Sex" required>
-      <label for="male">Male</label>
+      <label id="Sex" for="male">Male</label>
 
       <input type="radio" id="Sex" required>
-      <label for="female">Female</label><br>
+      <label id="Sex" for="female">Female</label><br>
 
       <p>What do you want ?
         <select name="Center" id="center">
@@ -79,7 +81,7 @@
                  </select></p>
       
 
-      <label for="message">Message:</label><br>
+      <label for="message">Message:</label>
       <textarea id="message" rows="4" required></textarea><br>
 
       <button type="submit">Send</button>
